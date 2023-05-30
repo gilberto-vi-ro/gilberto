@@ -427,7 +427,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contact</h2>
+          <h2>Contácto</h2>
         </div>
 
         <div class="row">
@@ -437,7 +437,7 @@
               <div class="info">
                 <div class="address">
                   <i class="bx bx-current-location"></i>
-                  <h4>Location:</h4>
+                  <h4>Ubicación:</h4>
                   <p>Solosuchiapa, Chiapas. C.P: 29580</p>
                 </div>
 
@@ -459,7 +459,7 @@
 
                 <div class="phone">
                   <i class="bx bxs-phone-call" ></i>
-                  <h4>Phone:</h4>
+                  <h4>Telefono:</h4>
                   <p>+52 919 153 8136</p>
                 </div>
 
