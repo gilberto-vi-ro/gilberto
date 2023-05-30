@@ -1082,6 +1082,24 @@ section {
 .portfolio #portfolio-flters {
   list-style: none;
   margin-bottom: 20px;
+  overflow-x: auto; 
+  width:100%;
+  white-space: nowrap;
+}
+
+/* Para navegadores webkit */
+.portfolio #portfolio-flters::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.portfolio #portfolio-flters::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Para Firefox */
+.portfolio #portfolio-flters {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .portfolio #portfolio-flters li {

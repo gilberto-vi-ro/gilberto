@@ -328,12 +328,14 @@
           <p>Estos son algunos proeyctos que he realizado.</p>
         </div>
 
-        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+        <center>
+        <ul id="portfolio-flters" class="" data-aos="fade-up" data-aos-delay="100">
           <li data-filter="*" class="filter-active">All</li>
           <li data-filter=".filter-desktop">Escritorio</li>
           <li data-filter=".filter-movil">Movil</li>
           <li data-filter=".filter-web">Web</li>
         </ul>
+        </center>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
