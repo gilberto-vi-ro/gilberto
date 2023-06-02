@@ -32,39 +32,108 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
+#loader {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
+  width: 100%;
+  height: 100%;
   z-index: 9999;
-  overflow: hidden;
-  background: #37517e;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #37517e;
-  border-top-color: #fff;
-  border-bottom-color: #fff;
+.circle-cont {
+  position: absolute;
+  width: 50%;
+  height: 50%;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: animate-preloader 1s linear infinite;
+  /* background-color: rgb(197, 232, 241); */
+  border: solid 6px rgba(59, 178, 208);
+  /* animation: rotate 2s ease-in-out infinite; */
+  
+}
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
 
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
+.circle {
+  width: 42%;
+  height: 42%;
+  border-radius: 50%;
+  /* transform: scale(0.7); */
+  background-color: rgba(197, 232, 241);
+  animation: grow-circle 1s alternate infinite;
+}
 
-  100% {
-    transform: rotate(360deg);
+@keyframes grow-circle {
+  from {
+    transform: scale(0.7);
   }
+  to {
+    transform: scale(1);
+  }
+}
+
+.loader-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 200px;
+  width: 200px;
+
+
+}
+.loader-container .loader-out{
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  border: solid 6px transparent;
+  border-top-color: rgba(27, 95, 112); 
+  border-radius: 50%;
+  border-bottom-color: rgba(27, 95, 112); ;
+  /* animation: loader 1.2s linear infinite; */
+  /* animation: loader-out 4s ease-in-out infinite; */
+  animation: loader-out 3s ease-in-out infinite;
+}
+.loader-container .loader-in{ 
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  border: solid 6px transparent;
+  border-left-color: rgba(42, 146, 173); ;
+  border-right-color: rgba(42, 146, 173); ;
+  border-radius: 50%;
+  animation: loader-in 3s ease-in-out infinite;
+}
+
+@keyframes loader-out{
+  0%{
+  transform: rotate(0deg); 
+}
+  100%{
+  transform: rotate(360deg)
+}
+}
+
+@keyframes loader-in{
+0%{
+  transform: rotate(0deg);
+}
+100%{
+transform: rotate(-360deg);
+}
 }
 
 /*--------------------------------------------------------------

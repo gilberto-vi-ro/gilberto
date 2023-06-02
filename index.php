@@ -105,7 +105,7 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item active" style="background-image: url(assets/img/slide/slider2.jpg);">
+          <div class="carousel-item active" style="background-image: url(assets/img/slide/slider2.png);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Desarrollador web. </h2>
@@ -305,6 +305,7 @@
 
             <div class="accordion-list">
               <ul>
+               
                 <li>
                   <div class="row experience-conatiner row-bordered">
                     <div class="col-sm-4">
@@ -313,19 +314,19 @@
                       </div>
                     </div>
                     <div class="col-sm-8 experience-info">
-                      <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"> 
+                      <a data-bs-toggle="collapse" data-bs-target="#accordion-list-1" class="collapsed">
                         <span>
-                          Desarrollador web en Mayan Developers
+                        Desarrollador web en Mayan Developers
                         </span>
                         <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
-                        
                         <p class="sub-title">Mayo de 2019 – agosto de 2019</p>
                       </a>
-                      <div id="accordion-list-1" class="collapse " data-bs-parent=".accordion-list">
+                      <div id="accordion-list-1" class="collapse" data-bs-parent=".accordion-list">
                         <p>
-                          Contribuí al desarrollo de una aplicación web, para llevar el
+                        Contribuí al desarrollo de una aplicación web, para llevar el
                           control de clientes de la empresa, así como la generación de
                           recibos de pagos en pdf para enviárselo al correo del cliente.
+
                         </p>
                       </div>
                     </div>
@@ -598,7 +599,7 @@
           <p>Estos son algunas tecnologías en las que tengo certificado.</p>
         </div>
 
-        <div class="row">
+        <div class="row g-4">
 
           <div class="col-md-6 d-flex align-items-stretch">
             <div class="info">
@@ -622,15 +623,33 @@
             <div class="info">
               <div class="item">
                 <i class="bx bx-medal"></i>
-                <h4>JavaScript Avanzado</h4>
+                <h4>JavaScript Intermedio</h4>
                 <p> <strong>Sololearn</strong>
                   <br>
                   <span>26 de mayo - 2 de junio de 2023</span>
                 </p>
               </div>
               <div class="img">
-                <a href="assets/img/certificate/sql.jpg" class="glightbox">
-                  <img src="assets/img/certificate/sql.jpg" class="img-fluid" alt="">
+                <a href="assets/img/certificate/javascript-intermediate.jpg" class="glightbox">
+                  <img src="assets/img/certificate/javascript-intermediate.jpg" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="info">
+              <div class="item">
+                <i class="bx bx-medal"></i>
+                <h4>PHP</h4>
+                <p> <strong>En curso</strong>
+                  <br>
+                  <span>20 de mayo - 3 de junio de 2023</span>
+                </p>
+              </div>
+              <div class="img">
+                <a href="assets/img/certificate/php.jpg" class="glightbox">
+                  <img src="assets/img/certificate/php.jpg" class="img-fluid" alt="">
                 </a>
               </div>
             </div>
@@ -667,7 +686,7 @@
               </div>
               <div class="portfolio-info">
                 <h4>Punto de venta</h4>
-                <p>Esto esta pendiente.</p>
+                <p>Esto esta en desarrollo.</p>
                 <!-- <a href="https://proyecto-ti.com/organizapp/login" target="_blank" class="details-link" title="Go website"><i class="bx bx-link-external"></i></a> -->
                   
                 <a href="assets/img/portfolio/spv.png" class="glightbox details-link" style="right: 35px;position:absolute">
@@ -882,9 +901,17 @@
     </div>
   </footer><!-- End Footer -->
 
-  <div id="preloader"></div>
+  
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bx bx-up-arrow-alt"></i></a>
 
+  <div id="loader">
+      <div class="loader-container">
+        <div class="loader-out"></div>
+        <div class="loader-in"></div>
+        <div class="circle-cont"></div>
+        <div class="circle"></div>
+      </div>
+  </div>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
