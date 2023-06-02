@@ -2,6 +2,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+*{
+  word-wrap: break-word !important;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -788,55 +791,80 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Why Us
+# Experience
 --------------------------------------------------------------*/
-.why-us .content {
+.experience .content {
   padding: 60px 100px 0 100px;
 }
 
-.why-us .content h3 {
+.experience .content h3 {
   font-weight: 400;
   font-size: 34px;
   color: #37517e;
 }
 
-.why-us .content h4 {
+.experience .content h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 5px;
 }
 
-.why-us .content p {
+.experience .content p {
   font-size: 15px;
   color: #848484;
 }
 
-.why-us .img {
+.experience .experience-conatiner{
+  width: 100%;
+}
+
+.experience .sub-title {
+  font-size: 12px;
+}
+.experience .logo {
+  max-width: 100px;
+  margin: auto; 
+}  
+.experience .logo img{
+  transition: ease-in-out 0.3s;
+  object-fit: cover;
+  border-radius: 50%;
+  
+}
+
+.experience .img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.why-us .accordion-list {
+.experience .experience-info{
+  padding-left: 15px;
+
+}
+
+
+
+.experience .accordion-list {
   padding: 0 100px 60px 100px;
 }
 
-.why-us .accordion-list ul {
+.experience .accordion-list ul {
   padding: 0;
   list-style: none;
 }
 
-.why-us .accordion-list li+li {
+.experience .accordion-list li+li {
   margin-top: 15px;
 }
 
-.why-us .accordion-list li {
+.experience .accordion-list li {
   padding: 20px;
   background: #fff;
   border-radius: 4px;
 }
 
-.why-us .accordion-list a {
+.experience .accordion-list a {
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -848,71 +876,75 @@ section {
   cursor: pointer;
 }
 
-.why-us .accordion-list span {
+.experience .accordion-list span {
   color: #47b2e4;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
 }
 
-.why-us .accordion-list i {
+.experience .accordion-list i {
   font-size: 24px;
   position: absolute;
   right: 0;
   top: 0;
 }
 
-.why-us .accordion-list p {
+.experience .accordion-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
 }
 
-.why-us .accordion-list .icon-show {
+.experience .accordion-list .icon-show {
   display: none;
 }
 
-.why-us .accordion-list a.collapsed {
+.experience .accordion-list a.collapsed {
   color: #343a40;
 }
 
-.why-us .accordion-list a.collapsed:hover {
+.experience .accordion-list a.collapsed:hover {
   color: #47b2e4;
 }
 
-.why-us .accordion-list a.collapsed .icon-show {
+.experience .accordion-list a.collapsed .icon-show {
   display: inline-block;
 }
 
-.why-us .accordion-list a.collapsed .icon-close {
+.experience .accordion-list a.collapsed .icon-close {
   display: none;
 }
 
 @media (max-width: 1024px) {
 
-  .why-us .content,
-  .why-us .accordion-list {
+  .experience .content,
+  .experience .accordion-list {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 @media (max-width: 992px) {
-  .why-us .img {
+  .experience .img {
     min-height: 400px;
   }
 
-  .why-us .content {
+  .experience .content {
     padding-top: 30px;
   }
 
-  .why-us .accordion-list {
+  .experience .accordion-list {
     padding-bottom: 30px;
   }
 }
 
 @media (max-width: 575px) {
-  .why-us .img {
+  .experience .img {
     min-height: 200px;
+  }
+
+  .experience .logo {
+    padding-bottom: 15px; 
   }
 }
 
@@ -1207,6 +1239,118 @@ section {
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
 }
+
+
+/*--------------------------------------------------------------
+# Technologies
+--------------------------------------------------------------*/
+.technologies .item {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+ 
+  border-radius: 5px;
+  background: #fff;
+  transition: 0.5s;
+  height: 100%;
+}
+
+.technologies .item .pic {
+  overflow: hidden;
+  max-width: 80px;
+  margin-right: 10px;;
+  
+
+}
+
+.technologies .item .pic img {
+  transition: ease-in-out 0.3s;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.technologies .item:hover {
+  transform: translateY(-10px);
+}
+
+.technologies .item .item-info {
+  padding-left: 10px;
+}
+
+.technologies .item h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #37517e;
+}
+
+.technologies .item span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.technologies .item span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #cbd6e9;
+  bottom: 0;
+  left: 0;
+}
+
+.technologies .item p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+
+.technologies  #technologies-flters {
+  list-style: none;
+  margin-bottom: 20px;
+  overflow-x: auto; 
+  width:100%;
+  white-space: nowrap;
+}
+
+/* Para navegadores webkit */
+.technologies  #technologies-flters::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.technologies  #technologies-flters::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Para Firefox */
+.technologies  #technologies-flters {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.technologies  #technologies-flters li {
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px 5px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  color: #444444;
+  transition: all 0.3s;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.technologies  #technologies-flters li:hover,
+.technologies  #technologies-flters li.filter-active {
+  background: #47b2e4;
+  color: #fff;
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -1585,6 +1729,66 @@ section {
     padding: 0;
   }
 }
+
+/*--------------------------------------------------------------
+# Certificate
+--------------------------------------------------------------*/
+
+.certificate .info {
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.certificate .info i {
+  font-size: 20px;
+  color: #47b2e4;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #e7f5fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.certificate .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #37517e;
+}
+
+.certificate .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #6182ba;
+}
+
+.certificate .img{
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+.certificate .img img{
+  
+  object-fit: contain;
+  transition: ease-in-out 0.3s;
+  /* object-fit: cover;
+  border-radius: 50%; */
+}
+
+.certificate .item i{
+  font-size: 30px;
+}
+
 
 /*--------------------------------------------------------------
 # Contact

@@ -18,6 +18,7 @@
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
@@ -43,8 +44,11 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero-carousel">Inicio</a></li>
           <li><a class="nav-link scrollto" href="#know-me">Conóceme</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#services">Servicios</a></li> -->
-          <li><a class="nav-link   scrollto" href="#portfolio">Portafolio</a></li>
+          <li><a class="nav-link scrollto" href="#experience">Experiencia</a></li>
+          <li><a class="nav-link scrollto" href="#technologies">Tecnologías</a></li>
+          <li><a class="nav-link scrollto" href="#certificate">Certificados</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Portafolio</a></li>
+          
           <!-- <li><a class="nav-link scrollto" href="#team">Equipo</a></li> -->
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -90,7 +94,7 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-1.jpg);">
+          <div class="carousel-item" style="background-image: url(assets/img/slide/slider1.png);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Si se puede imaginar, se puede desarrollar</h2>
@@ -101,18 +105,22 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-2.jpg);">
+          <div class="carousel-item active" style="background-image: url(assets/img/slide/slider2.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Desarrollador web. </h2>
                 <!-- <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p> -->
                 <a href="#contact" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contáctame</a>
+                
+                <a href="https://youtu.be/h4TlC1dfBU4" class="glightbox btn-get-started">
+                  <i class='bx bx-play-circle'></i> Reproducir
+                </a>
               </div>
             </div>
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
+          <div class="carousel-item" style="background-image: url(assets/img/slide/slider3.png);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">
@@ -163,7 +171,7 @@
                   <div class="col-md-8 col-lg-8 member-info">
                     <h4>Gilberto Villarreal Rodríguez</h4>
                     <span>Desarrollador Web</span>
-                    <p>No pieses como sera el futuro, piensa en como quieres que sea.</p>
+                    <p>No pieses como será el futuro, piensa en como quieres que sea.</p>
                     <div class="social">
                       <a href="#contact"><i class="bx bxl-whatsapp"></i></a>
                       <a href="#contact"><i class="bx bxs-phone-call"></i></a>
@@ -177,18 +185,8 @@
           <br>
           <br>
              
-   
-
           <div class="row content">
 
-            <div class="col-lg-6">
-              <p style="text-align: justify;">
-                Soy un desarrollador web aficionado a la tecnología que ha dedicado su valioso tiempo para desarrollar aplicaciones del lado del backend y frontend basándose en el patrón MVC con PDO.
-                <br> <br>
-                Puedo decir que ahora soy un desarrollador de software y que cuento con los conocimientos necesarios tales como Realización de diagramas (casos de uso, diagrama de clase, diagrama entidad relación y relacional, etc.), realización de wireframe, mockups, diseño de la base de datos, Redactar y analizar los requerimientos funcionales y no funcionales, Diseñar diagramas de flujo y obtener algoritmos, Entre otros.
-              </p>
-
-            </div>
             <div class="col-lg-6 pt-4 pt-lg-0">
               <p style="text-align: justify;">
                 Soy una persona proactiva, excelente compañero de equipo, organizado, responsable y
@@ -197,6 +195,14 @@
               </p>
               <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
             </div>
+            <div class="col-lg-6">
+              <p style="text-align: justify;">
+                Soy un desarrollador web aficionado a la tecnología que ha dedicado su valioso tiempo para desarrollar aplicaciones del lado del backend y frontend basándose en el patrón MVC con PDO.
+                <br> <br>
+                Puedo decir que ahora soy un desarrollador de software y que cuento con los conocimientos necesarios tales como Realización de diagramas (casos de uso, diagrama de clase, diagrama entidad relación y relacional, etc.), realización de wireframe, mockups, diseño de la base de datos, Redactar y analizar los requerimientos funcionales y no funcionales, Diseñar diagramas de flujo y obtener algoritmos, Entre otros.
+              </p>
+            </div>
+            
           </div>
 
         </div>
@@ -280,79 +286,358 @@
         </div>
       </section>
       <!-- End Hero Section -->
-
-      <!-- ======= Why Us Section ======= -->
-      <section id="why-us" class="why-us">
-        <div class="container-fluid" data-aos="fade-up">
-
-          <div class="row">
-
-            <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
-
-              <div class="content">
-                <h3>Experiencia <strong>en el desarrollo web</strong></h3>
-                <!-- <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                </p> -->
-              </div>
-
-              <div class="accordion-list">
-                <ul>
-                  <li>
-                    <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Desarrollador web en Mayan Developers (Mayo de 2019 – agosto de 2019)
-                      <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                    <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                      <p>
-                        Contribuí al desarrollo de una aplicación web, para llevar el
-                        control de clientes de la empresa, así como la generación de
-                        recibos de pagos en pdf para enviárselo al correo del cliente.
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Desarrollador web en Instituto Nacional de los Pueblos Indígenas (Enero de 2023 – abril de 2023)
-                      <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                    <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
-                      <p>
-                        Desarrollé una aplicación web, para administrar a los
-                        beneficiarios de la empresa, así como la generación de los datos a Excel.
-
-                      </p>
-                    </div>
-                  </li>
-
-                </ul>
-              </div>
-
-            </div>
-
-            <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
-          </div>
-
-        </div>
-      </section><!-- End Why Us Section -->
     </div>
 
-
-
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
+    <!-- =======  Experience Section ======= -->
+    <section id="experience" class="experience">
+      <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
-          <div class="col-lg-9 text-center text-lg-start">
-            <!-- <h3>Call To Action</h3> -->
-            <p>Un buen desarrollador de software trabaja con disciplina y constancia desde el primer día.</p>
+
+          <div class="col-lg-8 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content">
+              <h3>Experiencia <strong>en el desarrollo web</strong></h3>
+              <!-- <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              </p> -->
+            </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <div class="row experience-conatiner row-bordered">
+                    <div class="col-sm-4">
+                      <div class="logo d-flex justify-content-center">
+                        <img src="assets/img/experience/mayan-develpers.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-8 experience-info">
+                      <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"> 
+                        <span>
+                          Desarrollador web en Mayan Developers
+                        </span>
+                        <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
+                        
+                        <p class="sub-title">Mayo de 2019 – agosto de 2019</p>
+                      </a>
+                      <div id="accordion-list-1" class="collapse " data-bs-parent=".accordion-list">
+                        <p>
+                          Contribuí al desarrollo de una aplicación web, para llevar el
+                          control de clientes de la empresa, así como la generación de
+                          recibos de pagos en pdf para enviárselo al correo del cliente.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="row experience-conatiner row-bordered">
+                    <div class="col-sm-4">
+                      <div class="logo d-flex justify-content-center">
+                        <img src="assets/img/experience/inpi.jpg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-8 experience-info">
+                      <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed">
+                        <span>
+                          Desarrollador web en Instituto Nacional de los Pueblos Indígenas
+                        </span>
+                        <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
+                        <p class="sub-title">Enero de 2023 – abril de 2023</p>
+                      </a>
+                      <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                        <p>
+                          Desarrollé una aplicación web, para administrar a los
+                          beneficiarios de la empresa, así como la generación de los datos a Excel.
+
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
           </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#contact">Contáctame</a>
-          </div>
+
+          <div class="col-lg-4 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
         </div>
 
       </div>
-    </section><!-- End Cta Section -->
+
+    </section><!-- End Experience Section -->
+    
+
+
+    <!-- =====================Technologies =============================-->
+    <section id="technologies" class="technologies portfolio section-bg"  style="padding-bottom:0;">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Tecnologías</h2>
+          <p>Estos son algunas tecnologías que domino.</p>
+        </div>
+
+        <center>
+          <ul id="technologies-flters" class="" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-programming">Programación</li>
+            <li data-filter=".filter-framework">Framework</li>
+            <li data-filter=".filter-database">Base de datos</li>
+            <li data-filter=".filter-software">Software</li>
+          </ul>
+        </center>
+
+        <div class="row g-4 technologies-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-md-6 col-lg-4 technologies-item filter-programming" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/php.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>PHP</h4>
+                <span>3 años de experiencia</span>
+                <p>PHPMailer, PDO, FPDF. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 technologies-item filter-programming" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/js.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>Javascript</h4>
+                <span>2 años de experiencia</span>
+                <p>ES6. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 technologies-item filter-programming" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/html.jpg" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>HTML</h4>
+                <span>3 años de experiencia</span>
+                <p> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 technologies-item filter-programming" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/css.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>CSS</h4>
+                <span>3 años de experiencia</span>
+                <p> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 technologies-item filter-programming" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/java.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>Java</h4>
+                <span>6 meses de experiencia</span>
+                <p>. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 technologies-item filter-programming" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/c-shart.jpg" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>C#</h4>
+                <span>6 meses de experiencia</span>
+                <p> </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 technologies-item filter-framework" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/jquery.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>JQuery</h4>
+                <span>2 años de experiencia</span>
+                <p> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 technologies-item filter-framework" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/ajax.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>Ajax</h4>
+                <span>1 año de experiencia</span>
+                <p> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 technologies-item filter-framework" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/bootstrap.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>Bootstrap</h4>
+                <span>2 años de experiencia</span>
+                <p> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 technologies-item filter-framework" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/react.js.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>React.js</h4>
+                <span>1 año de experiencia</span>
+                <p> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 technologies-item filter-framework" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/laravel.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>Laravel</h4>
+                <span>1 año de experiencia</span>
+                <p> </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 technologies-item filter-database" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/mysql.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>MySQL</h4>
+                <span>3 años de experiencia</span>
+                <p> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 technologies-item filter-database" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/maria-db.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>MariaDB</h4>
+                <span>2 años de experiencia</span>
+                <p> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 technologies-item filter-database" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/oracle-db.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>Oracle</h4>
+                <span>1 año de experiencia</span>
+                <p> </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 technologies-item filter-software" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/git.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>Git – Github</h4>
+                <span>1 año de experiencia</span>
+                <p> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 technologies-item filter-software" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/m-office.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>Microsoft Office</h4>
+                <span>4 años de experiencia</span>
+                <p> </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 technologies-item filter-software" data-aos="zoom-in" data-aos-delay="100">
+            <div class="item d-flex align-items-start align-items-start row-bordered">
+              <div class="pic"><img src="assets/img/technologies/workbench.png" class="img-fluid" alt=""></div>
+              <div class="item-info">
+                <h4>MySQL Workbench</h4>
+                <span>1 año de experiencia</span>
+                <p> </p>
+              </div>
+            </div>
+          </div>
+
+        
+        </div>
+      </div>
+      <br><br><br>
+      <!-- ======= Cta Section ======= -->
+      <div id="cta" class="cta">
+        <div class="container" data-aos="zoom-in">
+
+          <div class="row">
+            <div class="col-lg-9 text-center text-lg-start">
+              <!-- <h3>Call To Action</h3> -->
+              <p>Un buen desarrollador de software trabaja con disciplina y constancia desde el primer día.</p>
+            </div>
+            <div class="col-lg-3 cta-btn-container text-center">
+              <a class="cta-btn align-middle" href="#contact">Contáctame</a>
+            </div>
+          </div>
+
+        </div>
+      </div><!-- End Cta Section -->
+    </section>
+    <!-- ======================== End technologies =============== -->
+
+    <!-- ======= Certificate Section ======= -->
+    <section id="certificate" class="certificate section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Certificados / Cursos</h2>
+          <p>Estos son algunas tecnologías en las que tengo certificado.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="info">
+              <div class="item">
+                <i class="bx bx-medal"></i>
+                <h4>SQL</h4>
+                <p> <strong>Sololearn</strong>
+                  <br>
+                  <span>25 de mayo - 1 de junio de 2023</span>
+                </p>
+              </div>
+              <div class="img">
+                <a href="assets/img/certificate/sql.jpg" class="glightbox">
+                  <img src="assets/img/certificate/sql.jpg" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="info">
+              <div class="item">
+                <i class="bx bx-medal"></i>
+                <h4>JavaScript Avanzado</h4>
+                <p> <strong>Sololearn</strong>
+                  <br>
+                  <span>26 de mayo - 2 de junio de 2023</span>
+                </p>
+              </div>
+              <div class="img">
+                <a href="assets/img/certificate/sql.jpg" class="glightbox">
+                  <img src="assets/img/certificate/sql.jpg" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section><!-- End Certificate Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -366,9 +651,9 @@
         <center>
           <ul id="portfolio-flters" class="" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-web">Web</li>
             <li data-filter=".filter-desktop">Escritorio</li>
             <li data-filter=".filter-movil">Movil</li>
-            <li data-filter=".filter-web">Web</li>
           </ul>
         </center>
 
@@ -377,12 +662,17 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-desktop">
             <div class="row-bordered">
               <h4 class="portfolio-title">Punto de venta</h4>
-              <div class="portfolio-img"><img src="assets/img/portfolio/spv.png" class="img-fluid" alt=""></div>
+              <div class="portfolio-img">
+                  <img src="assets/img/portfolio/spv.png" class="img-fluid" alt="">
+              </div>
               <div class="portfolio-info">
                 <h4>Punto de venta</h4>
                 <p>Esto esta pendiente.</p>
-                <!-- <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a> -->
-                <!-- <a href="portfolio-details.html" target="_blank" class="details-link" title="More Details"><i class="bx bx-show"></i></a> -->
+                <!-- <a href="https://proyecto-ti.com/organizapp/login" target="_blank" class="details-link" title="Go website"><i class="bx bx-link-external"></i></a> -->
+                  
+                <a href="assets/img/portfolio/spv.png" class="glightbox details-link" style="right: 35px;position:absolute">
+                  <i class="bx bx-show" title="Show img"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -390,12 +680,18 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-movil">
             <div class="row-bordered">
               <h4 class="portfolio-title">Pendiente</h4>
-              <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-img">
+                  <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              </div>
               <div class="portfolio-info">
                 <h4>Movil</h4>
                 <p>Pendiente.</p>
 
-                <!-- <a href="portfolio-details.html" target="_blank" class="details-link" title="More Details"><i class="bx bx-show"></i></a> -->
+                <!-- <a href="https://proyecto-ti.com/organizapp/login" target="_blank" class="details-link" title="Go website"><i class="bx bx-link-external"></i></a> -->
+                  
+                <a href="assets/img/portfolio/portfolio-4.jpg" class="glightbox details-link" style="right: 35px;position:absolute">
+                  <i class="bx bx-show" title="Show img"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -403,45 +699,57 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="row-bordered">
               <h4 class="portfolio-title">OrganizApp</h4>
-              <div class="portfolio-img"><img src="assets/img/portfolio/organizapp.png" class="img-fluid" alt=""></div>
-              <a href="https://proyecto-ti.com/organizapp/login" target="_blank">
+              <div class="portfolio-img">
+                  <img src="assets/img/portfolio/organizapp.png" class="img-fluid" alt="">
+              </div>
                 <div class="portfolio-info">
                   <h4>OrganizApp</h4>
                   <p>Es una aplicación web que tiene como objetivo organizar las tareas o actividades de un usuario indicándole la fecha de entrega de cada una, manteniendo tres estados: pendiente, listo y entregado.</p>
 
-                  <a href="https://proyecto-ti.com/organizapp/login" target="_blank" class="details-link" title="More Details"><i class="bx bx-show"></i></a>
+                  <a href="https://proyecto-ti.com/organizapp/login" target="_blank" class="details-link" title="Go website"><i class="bx bx-link-external"></i></a>
+                  
+                  <a href="assets/img/portfolio/organizapp.png" class="glightbox details-link" style="right: 35px;position:absolute">
+                    <i class="bx bx-show" title="Show img"></i>
+                  </a>
                 </div>
-              </a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="row-bordered">
               <h4 class="portfolio-title">Datacapt</h4>
-              <div class="portfolio-img"><img src="assets/img/portfolio/datacapt.png" class="img-fluid" alt=""></div>
-              <a href="https://proyecto-ti.com/datacapt-cni" target="_blank">
+              <div class="portfolio-img">
+                  <img src="assets/img/portfolio/datacapt.png" class="img-fluid" alt="">
+              </div>
                 <div class="portfolio-info">
                   <h4>Datacapt</h4>
                   <p>Es una aplicación web, para administrar a los beneficiarios de la empresa “Instituto Nacional de los Pueblos Indígenas”, así como la generación de los datos a Excel.</p>
 
-                  <a href="https://proyecto-ti.com/datacapt-cni" target="_blank" class="details-link" title="More Details"><i class="bx bx-show"></i></a>
+                  <a href="https://proyecto-ti.com/organizapp/login" target="_blank" class="details-link" title="Go website"><i class="bx bx-link-external"></i></a>
+                  
+                  <a href="assets/img/portfolio/datacapt.png" class="glightbox details-link" style="right: 35px;position:absolute">
+                    <i class="bx bx-show" title="Show img"></i>
+                  </a>
                 </div>
-              </a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="row-bordered">
               <h4 class="portfolio-title">Backup-Restore</h4>
-              <div class="portfolio-img"><img src="assets/img/portfolio/backup-restore-gl.png" class="img-fluid" alt=""></div>
-              <a href="https://proyecto-ti.com/backup-restore" target="_blank">
+              <div class="portfolio-img">
+                  <img src="assets/img/portfolio/backup-restore-gl.png" class="img-fluid" alt="">
+              </div>
                 <div class="portfolio-info">
                   <h4>Backup-Restore</h4>
                   <p>Es una aplicación web con diseño intuitivo para hacer backup y restore de una base de datos de manera local o remota, la aplicación soporta el gestor de base de datos MySql y MariaDB, y se espera que un futuro soporte otros gestores.</p>
 
-                  <a href="https://proyecto-ti.com/backup-restore" target="_blank" class="details-link" title="More Details"><i class="bx bx-show"></i></a>
+                  <a href="https://proyecto-ti.com/backup-restore" target="_blank" class="details-link" title="Go website"><i class="bx bx-link-external"></i></a>
+                  
+                  <a href="assets/img/portfolio/backup-restore-gl.png" class="glightbox details-link" style="right: 35px;position:absolute">
+                    <i class="bx bx-show" title="Show img"></i>
+                  </a>
                 </div>
-              </a>
             </div>
           </div>
 
@@ -449,15 +757,21 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="row-bordered">
               <h4 class="portfolio-title">Tienda-gl</h4>
-              <div class="portfolio-img"><img src="assets/img/portfolio/tienda-gl.png" class="img-fluid" alt=""></div>
-              <a href="https://proyecto-ti.com/tienda-gl/login" target="_blank">
+              <div class="portfolio-img">
+                  <img src="assets/img/portfolio/tienda-gl.png" class="img-fluid" alt="">
+              </div>
+             
                 <div class="portfolio-info">
                   <h4>Tienda-gl</h4>
                   <p>Es una aplicación web que ofrece partes de aplicaciones para reutilizarlo en un proyecto nuevo, obtén el frontend o backend. Tienda-gl tiene integrado a PayPal, y pagos con targetas desde cualquier parte del mundo para realizar el pago de lo que se ofrece.</p>
 
-                  <a href="https://proyecto-ti.com/tienda-gl/login" target="_blank" class="details-link" title="More Details"><i class="bx bx-show"></i></a>
+                  <a href="https://proyecto-ti.com/tienda-gl/login" target="_blank" class="details-link" title="Go website"><i class="bx bx-link-external"></i></a>
+                  
+                  <a href="assets/img/portfolio/tienda-gl.png" class="glightbox details-link" style="right: 35px;position:absolute">
+                    <i class="bx bx-show" title="Show img"></i>
+                  </a>
                 </div>
-              </a>
+              
             </div>
           </div>
 
@@ -468,11 +782,8 @@
     </section><!-- End Portfolio Section -->
 
 
-
-
-
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -576,6 +887,7 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>

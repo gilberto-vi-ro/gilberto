@@ -207,4 +207,49 @@
 
   });
 
+  /**
+   * Technologies isotope and filter
+   */
+  window.addEventListener('load', () => {
+    let technologiesContainer = select('.technologies-container');
+    if (technologiesContainer) {
+      let technologiesIsotope = new Isotope(technologiesContainer, {
+        itemSelector: '.technologies-item'
+      });
+
+      let technologiesFilters = select('#technologies-flters li', true);
+
+      on('click', '#technologies-flters li', function(e) {
+        e.preventDefault();
+        technologiesFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        technologiesIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        technologiesIsotope.on('arrangeComplete', function() {
+          // AOS.refresh()
+        });
+      }, true);
+    }
+
+  });
+
+   /**
+   * Initiate  glightbox 
+   */
+   const glightbox = GLightbox({
+    selector: '.carousel .glightbox'
+  });
+
+  const glightbox2 = GLightbox({
+    selector: '.certificate .glightbox'
+  });
+
+  const glightbox3 = GLightbox({
+    selector: '.portfolio .glightbox'
+  });
+
 })()
