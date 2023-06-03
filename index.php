@@ -606,7 +606,7 @@
               <div class="item">
                 <i class="bx bx-medal"></i>
                 <h4>SQL</h4>
-                <p> <strong>Sololearn</strong>
+                <p> <a href="https://www.sololearn.com/" target="_blank" style="color: #6182ba;"> <strong>Sololearn</strong></a>
                   <br>
                   <span>25 de mayo - 1 de junio de 2023</span>
                 </p>
@@ -624,7 +624,7 @@
               <div class="item">
                 <i class="bx bx-medal"></i>
                 <h4>JavaScript Intermedio</h4>
-                <p> <strong>Sololearn</strong>
+                <p> <a href="https://www.sololearn.com/" target="_blank" style="color: #6182ba;"> <strong>Sololearn</strong></a>
                   <br>
                   <span>26 de mayo - 2 de junio de 2023</span>
                 </p>
@@ -642,9 +642,9 @@
               <div class="item">
                 <i class="bx bx-medal"></i>
                 <h4>PHP</h4>
-                <p> <strong>En curso</strong>
+                <p> <a href="https://www.sololearn.com/" target="_blank" style="color: #6182ba;"> <strong>Sololearn</strong></a>
                   <br>
-                  <span>20 de mayo - 3 de junio de 2023</span>
+                  <span>27 de mayo - 3 de junio de 2023</span>
                 </p>
               </div>
               <div class="img">

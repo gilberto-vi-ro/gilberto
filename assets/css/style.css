@@ -1850,8 +1850,8 @@ section {
   
   object-fit: contain;
   transition: ease-in-out 0.3s;
-  /* object-fit: cover;
-  border-radius: 50%; */
+  border-radius: 8px;
+  /* object-fit: cover;*/
 }
 
 .certificate .item i{
