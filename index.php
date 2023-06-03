@@ -596,7 +596,7 @@
 
         <div class="section-title">
           <h2>Certificados / Cursos</h2>
-          <p>Estos son algunas tecnologías en las que tengo certificado.</p>
+          <p>Estas son algunas tecnologías en las que tengo certificado.</p>
         </div>
 
         <div class="row g-4">
@@ -664,7 +664,7 @@
 
         <div class="section-title">
           <h2>Portafolio</h2>
-          <p>Estos son algunos proeyctos que he realizado.</p>
+          <p>Estas son algunos proeyctos que he realizado.</p>
         </div>
 
         <center>
@@ -744,7 +744,7 @@
                   <h4>Datacapt</h4>
                   <p>Es una aplicación web, para administrar a los beneficiarios de la empresa “Instituto Nacional de los Pueblos Indígenas”, así como la generación de los datos a Excel.</p>
 
-                  <a href="https://proyecto-ti.com/organizapp/login" target="_blank" class="details-link" title="Go website"><i class="bx bx-link-external"></i></a>
+                  <a href="https://proyecto-ti.com/datacapt-cni" target="_blank" class="details-link" title="Go website"><i class="bx bx-link-external"></i></a>
                   
                   <a href="assets/img/portfolio/datacapt.png" class="glightbox details-link" style="right: 35px;position:absolute">
                     <i class="bx bx-show" title="Show img"></i>
@@ -809,7 +809,7 @@
           <h2>Contácto</h2>
         </div>
 
-        <div class="row">
+        <div class="row g-4">
 
           <!-- <div class="d-flex justify-content-center"> -->
           <div class="col-md-6 d-flex align-items-stretch">
