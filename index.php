@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/gl.jpg" rel="icon">
-  <link href="assets/img/gl.jpg" rel="apple-touch-icon">
+  <link href="assets/img/gl.png" rel="icon">
+  <link href="assets/img/gl.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -165,13 +165,13 @@
                 <div class="row g-0 d-flex justify-content-center">
                   <div class="col-md-4 col-lg-4 ">
                     <div class="pic d-flex justify-content-center">
-                      <img src="assets/img/gl.jpg" class="" alt="">
+                      <img src="assets/img/gl.png" class="" alt="">
                     </div>
                   </div>
                   <div class="col-md-8 col-lg-8 member-info">
                     <h4>Gilberto Villarreal Rodríguez</h4>
                     <span>Desarrollador Web</span>
-                    <p>No pieses como será el futuro, piensa en como quieres que sea.</p>
+                    <p>Un buen código es aquel que es fácil de leer y entender para otros programadores.</p>
                     <div class="social">
                       <a href="#contact"><i class="bx bxl-whatsapp"></i></a>
                       <a href="#contact"><i class="bx bxs-phone-call"></i></a>
@@ -197,10 +197,9 @@
             </div>
             <div class="col-lg-6">
               <p style="text-align: justify;">
-                Soy un desarrollador web aficionado a la tecnología que ha dedicado su valioso tiempo para desarrollar aplicaciones del lado del backend y frontend basándose en el patrón MVC con PDO.
+                Soy un desarrollador web aficionado a la tecnología que ha dedicado su valioso tiempo para desarrollar aplicaciones del lado del backend y frontend basándose en el patrón MVC con POO (Programación Orientada a Objetos).
                 <br> <br>
-                Puedo decir que ahora soy un desarrollador de software y que cuento con los conocimientos necesarios tales como Realización de diagramas (casos de uso, diagrama de clase, diagrama entidad relación y relacional, etc.), realización de wireframe, mockups, diseño de la base de datos, Redactar y analizar los requerimientos funcionales y no funcionales, Diseñar diagramas de flujo y obtener algoritmos, Entre otros.
-              </p>
+                
             </div>
             
           </div>
@@ -273,7 +272,7 @@
           <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
               <h1>¡Trabajemos juntos!</h1>
-              <h2>Soy una persona talentosa para hacer paginas o aplicaciones web.</h2>
+              <h2>Un buen diseño de un sitio web es aquel que es fácil de usar.</h2>
               <div class="d-flex justify-content-center justify-content-lg-start">
                 <a href="#contact" class="btn-get-started  scrollto">Contáctame</a>
 
@@ -323,10 +322,19 @@
                       </a>
                       <div id="accordion-list-1" class="collapse" data-bs-parent=".accordion-list">
                         <p>
-                        Contribuí al desarrollo de una aplicación web, para llevar el
-                          control de clientes de la empresa, así como la generación de
-                          recibos de pagos en pdf para enviárselo al correo del cliente.
-
+                        Mejoré el rendimiento de la aplicación sugiriendo nuevas
+                        funcionabilidades.
+                        </p>
+                        <p>
+                        Hice responsiva la aplicación mediante Media Query.
+                        </p>
+                        <p>
+                        Programé el back end y parte del front end de la
+                        aplicación.
+                        </p>
+                        <p>
+                        Realicé la generación de recibos de pagos en PDF para
+                        enviárselo al correo del cliente.
                         </p>
                       </div>
                     </div>
@@ -350,9 +358,17 @@
                       </a>
                       <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                         <p>
-                          Desarrollé una aplicación web, para administrar a los
-                          beneficiarios de la empresa, así como la generación de los datos a Excel.
-
+                        Realicé el diseño de la aplicación.
+                        </p>
+                        <p>
+                        Programé el back end y front end de la aplicación.
+                        </p>
+                        <p>
+                        Realicé la generación de los datos de la aplicación a
+                        Excel.
+                        </p>
+                        <p>
+                        Implementé consultas avanzadas de Base de datos.
                         </p>
                       </div>
                     </div>
