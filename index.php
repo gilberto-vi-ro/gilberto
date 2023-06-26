@@ -680,7 +680,7 @@
 
         <div class="section-title">
           <h2>Portafolio</h2>
-          <p>Estas son algunos proeyctos que he realizado.</p>
+          <p>Estas son algunos proyectos que he realizado.</p>
         </div>
 
         <center>
@@ -688,7 +688,7 @@
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-web">Web</li>
             <li data-filter=".filter-desktop">Escritorio</li>
-            <li data-filter=".filter-movil">Movil</li>
+            <li data-filter=".filter-movil">Móvil</li>
           </ul>
         </center>
 
@@ -702,7 +702,7 @@
               </div>
               <div class="portfolio-info">
                 <h4>Punto de venta</h4>
-                <p>Esto esta en desarrollo.</p>
+                <p>Esto está en desarrollo.</p>
                 <!-- <a href="https://proyecto-ti.com/organizapp/login" target="_blank" class="details-link" title="Go website"><i class="bx bx-link-external"></i></a> -->
                   
                 <a href="assets/img/portfolio/spv.png" class="glightbox details-link" style="right: 35px;position:absolute">
@@ -719,7 +719,7 @@
                   <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
               </div>
               <div class="portfolio-info">
-                <h4>Movil</h4>
+                <h4>Móvil</h4>
                 <p>Pendiente.</p>
 
                 <!-- <a href="https://proyecto-ti.com/organizapp/login" target="_blank" class="details-link" title="Go website"><i class="bx bx-link-external"></i></a> -->
@@ -798,7 +798,7 @@
              
                 <div class="portfolio-info">
                   <h4>Tienda-gl</h4>
-                  <p>Es una aplicación web que ofrece partes de aplicaciones para reutilizarlo en un proyecto nuevo, obtén el frontend o backend. Tienda-gl tiene integrado a PayPal, y pagos con targetas desde cualquier parte del mundo para realizar el pago de lo que se ofrece.</p>
+                  <p>Es una aplicación web que ofrece partes de aplicaciones para reutilizarlo en un proyecto nuevo, obtén el frontend o backend. Tienda-gl tiene integrado a PayPal, y pagos con tarjetas desde cualquier parte del mundo para realizar el pago de lo que se ofrece.</p>
 
                   <a href="https://proyecto-ti.com/tienda-gl/login" target="_blank" class="details-link" title="Go website"><i class="bx bx-link-external"></i></a>
                   
@@ -833,10 +833,10 @@
               <div class="address">
                 <i class="bx bx-current-location"></i>
                 <h4>Ubicación:</h4>
-                <p>Solosuchiapa, Chiapas. C.P: 29580</p>
+                <p>Guadalajara, Jalisco. C.P: 44100</p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7613.329866577252!2d-93.0382045091581!3d17.4278604338646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85edadc0f8f6873f%3A0x6e042b81549feb23!2sSolosuchiapa%2C%20Chis.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1685410401317!5m2!1ses!2sus" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1386836.727386372!2d-104.28151874423313!3d19.85267982282309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b18cb52fd39b%3A0xd63d9302bf865750!2sGuadalajara%2C%20Jal.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1687813249672!5m2!1ses!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
           </div>
@@ -853,7 +853,7 @@
 
               <div class="phone">
                 <i class="bx bxs-phone-call"></i>
-                <h4>Telefono:</h4>
+                <h4>Teléfono:</h4>
                 <p>+52 919 153 8136</p>
               </div>
 
