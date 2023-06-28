@@ -680,7 +680,7 @@
 
         <div class="section-title">
           <h2>Portafolio</h2>
-          <p>Estas son algunos proyectos que he realizado.</p>
+          <p>Estos son algunos proyectos que he realizado.</p>
         </div>
 
         <center>
