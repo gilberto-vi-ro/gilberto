@@ -5,6 +5,7 @@
     setTimeout(function() {
         $("body").removeAttr("style"); //remove style of body
         $(".goog-te-gadget-icon").removeAttr("style"); 
+        $(".goog-te-spinner-pos").remove();  //remover spinner
         // var removePopup = document.getElementById('goog-gt-tt'); //remove cont of suggest a better translation
         // removePopup.parentNode.removeChild(removePopup); //remove cont of suggest a better translation
         removeStyleFont(); //remove style of all font
