@@ -943,7 +943,8 @@
   <script src="assets/js/jquery.min.3.3.1.js"></script>
 
   <!----=====GOOGLE TRANSLATE ===== -->
-  <script src="assets/js/translate.google.js"></script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
   <script src="assets/js/googleTranslate.js"></script>
   
   <!-- <script src="assets/js/googleTranslate.js"></script> -->

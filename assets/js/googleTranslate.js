@@ -6,6 +6,8 @@
         $("body").removeAttr("style"); //remove style of body
         $(".goog-te-gadget-icon").removeAttr("style"); 
         $(".goog-te-spinner-pos").remove();  //remover spinner
+        $(".VIpgJd-ZVi9od-xl07Ob-lTBxed").remove();
+        
         // var removePopup = document.getElementById('goog-gt-tt'); //remove cont of suggest a better translation
         // removePopup.parentNode.removeChild(removePopup); //remove cont of suggest a better translation
         removeStyleFont(); //remove style of all font
@@ -77,6 +79,19 @@ $('document').ready(function () {
             
         });
     
+
+        
+      
+        // Change iframes's size and overflow
+        $("iframe").contents().find('.VIpgJd-ZVi9od-vH1Gmf').css({
+            'position': 'relative',
+            'height': '100%',
+            'width': '80%',
+            'padding': '10px',
+            "overflow-x": "auto",
+            "-webkit-overflow-scrolling": "touch",
+            
+        });
 
         
     });
