@@ -7,6 +7,7 @@
         $(".goog-te-gadget-icon").removeAttr("style"); 
         $(".goog-te-spinner-pos").remove();  //remover spinner
         $(".VIpgJd-ZVi9od-xl07Ob-lTBxed").remove();
+        $(".VIpgJd-ZVi9od-ORHb-OEVmcd").remove();
         
         // var removePopup = document.getElementById('goog-gt-tt'); //remove cont of suggest a better translation
         // removePopup.parentNode.removeChild(removePopup); //remove cont of suggest a better translation
@@ -28,6 +29,8 @@ $('document').ready(function () {
     // RESTYLE THE DROPDOWN MENU
     $('#google_translate_element').on("click", function () {
 
+        $(".VIpgJd-ZVi9od-ORHb-OEVmcd").remove();
+       
         // Change font family and color
         $("iframe").contents().find(".goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div, .goog-te-menu2 *")
             .css({
