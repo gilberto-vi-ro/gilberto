@@ -1,7 +1,7 @@
 
 
 /*========================================================================================
- GOOGLE TRANSLATE
+ GOOGLE TRANSLATE  InlineLayout.SIMPLE 
 ===========================================================================================*/
 #google_translate_element {padding: 5px; margin-left: 20px;}
 .goog-te-banner-frame, .VIpgJd-ZVi9od-ORHb-OEVmcd {display:none;}  /*Don't show Google Topbar */
@@ -119,4 +119,31 @@ body {top: 0px!important;}
     text-align: center;
   }	
 	
+}
+
+
+/*========================================================================================
+ GOOGLE TRANSLATE InlineLayout.VERTICAL
+===========================================================================================*/
+.goog-te-gadget .goog-te-combo{
+  margin: 0;
+}
+/* Estilo para el elemento select */
+select.goog-te-combo {
+  appearance: none; /* Elimina los estilos nativos del navegador */
+  -webkit-appearance: none; /* Para navegadores basados en WebKit (por ejemplo, Chrome y Safari) */
+  -moz-appearance: none; /* Para navegadores basados en Gecko (por ejemplo, Firefox) */
+  background-image: url('../img/languaje/idioma.png'); /*Agrega la imagen de fondo*/
+  background-repeat: no-repeat;
+  background-size: 22px 22px; /* Ajusta el tamaño de la imagen de fondo */
+  background-position: center center; /* Ajusta la posición de la imagen de fondo */
+  padding-right: 25px; /* Ajusta el espaciado para dejar espacio para la imagen */
+  border: none; /* Establece un borde para el select */
+  border-radius: 4px; /* Añade esquinas redondeadas */
+  font-size: 16px; /* Tamaño de fuente */
+  padding: 2px; 
+  height: 27px;
+  width: 25px; /* Ajusta el ancho del select según tus necesidades */
+ text-indent: -9999px;  /* Oculta el texto moviéndolo fuera del área visible */
+  background-color: rgba(0, 0, 0,0.0);
 }

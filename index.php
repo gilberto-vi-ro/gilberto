@@ -36,7 +36,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">Gilberto</a></h1>
+      <h1 class="logo me-auto"><a href="?">Gilberto</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -69,7 +69,9 @@
           </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contáctame</a></li>
           <li>
+        
             <div id="google_translate_element" class=" pb-2"></div>
+          
           </li>
 
         </ul>
