@@ -356,7 +356,7 @@
                           Desarrollador web en Instituto Nacional de los Pueblos Indígenas
                         </span>
                         <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
-                        <p class="sub-title">Enero de 2023 – abril de 2023</p>
+                        <p class="sub-title">Enero de 2023 – junio de 2023</p>
                       </a>
                       <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                         <p>
